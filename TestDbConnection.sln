@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDbConnection", "TestDbConnection\TestDbConnection.csproj", "{380D10ED-36B4-4066-A41B-55C81A1A9CE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDbConnection", "TestDbConnection\TestDbConnection.csproj", "{380D10ED-36B4-4066-A41B-55C81A1A9CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboratoireSQL10", "LaboratoireSQL10\LaboratoireSQL10.csproj", "{615290C3-0B4C-4EAD-A476-0D9741E1E753}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{380D10ED-36B4-4066-A41B-55C81A1A9CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{380D10ED-36B4-4066-A41B-55C81A1A9CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{380D10ED-36B4-4066-A41B-55C81A1A9CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615290C3-0B4C-4EAD-A476-0D9741E1E753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615290C3-0B4C-4EAD-A476-0D9741E1E753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615290C3-0B4C-4EAD-A476-0D9741E1E753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615290C3-0B4C-4EAD-A476-0D9741E1E753}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
