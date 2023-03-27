@@ -53,8 +53,8 @@ namespace LaboratoireSQL10
             //créer l'objet commande
             SqlCommand cmd = new SqlCommand(sql, myConn);//myConn.CreateCommand();
             //initialiser les paramètres
-            cmd.Parameters.Add(new SqlParameter("id", p.ProgrammeID));
-            cmd.Parameters.Add(new SqlParameter("name", p.ProgrammeName));
+            cmd.Parameters.Add(new SqlParameter("programmeID", p.ProgrammeID));
+            cmd.Parameters.Add(new SqlParameter("programmeName", p.ProgrammeName));
 
             //executer la requete
             cmd.ExecuteNonQuery();
