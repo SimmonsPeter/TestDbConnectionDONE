@@ -95,6 +95,7 @@
             this.btnVoirListeProg.TabIndex = 4;
             this.btnVoirListeProg.Text = "Voir Liste";
             this.btnVoirListeProg.UseVisualStyleBackColor = true;
+            this.btnVoirListeProg.Click += new System.EventHandler(this.btnVoirListeProg_Click);
             // 
             // btnModifierProg
             // 

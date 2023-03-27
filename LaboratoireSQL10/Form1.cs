@@ -25,5 +25,10 @@ namespace LaboratoireSQL10
 
 
         }
+
+        private void btnVoirListeProg_Click(object sender, EventArgs e)
+        {
+            dataGridProg.DataSource = this.dbContext.GetAllProgrammes();
+        }
     }
 }
